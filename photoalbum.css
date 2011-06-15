@@ -1,0 +1,166 @@
+body {
+	color: black; 
+	background-color: gainsboro;
+	font-family: Optima, "Myriad Web", Arial, Helvetica, sans-serif;
+}
+.wrap div {
+	float: left;
+	width: 180px;
+	border: solid 1px #666;
+	margin: 10px 10px 0 0;
+	background-color: seashell;
+	border: solid 1px #8e8372;
+}
+.wrap a {
+	
+	text-align: center;
+}
+
+.wrap div>a {
+	display: table-cell;
+	width: 180px;
+	height: 180px;
+	vertical-align: middle;
+}
+
+.wrap img {
+	border: solid 1px grey;
+	vertical-align: middle;
+}
+/* IE */
+*:first-child+html .wrap a {
+	display: block;
+	font-size: 1px; /* migliora Mac */
+}
+*:first-child+html .wrap span {
+	display: inline-block;
+	vertical-align: middle;
+	height: 180px;
+	
+}
+* html .wrap a {
+	display: block;
+	font-size: 1px; /* migliora Mac */
+}
+* html .wrap span {
+	display: inline-block;
+	vertical-align: middle;
+	height: 180px;
+	
+}
+.wrap span {
+	width: 1px;
+}
+/* box model */
+*:first-child+html .wrap div {
+	width: 180px;
+}
+
+* html .wrap div {
+	width: 180px;
+}
+.wrap div {
+	border-collapse: collapse; /* required for opera7 */
+}
+
+*:first-child+html .wrap {
+	_height: 0;
+	zoom:1;
+}
+
+* html .wrap {
+	_height: 0;
+	zoom:1;
+}
+.wrap a:hover {
+	background-color: lightskyblue; 
+}
+
+.thumbnail * image {
+  border: none;
+}
+
+div#content {
+  background-color: white;
+  padding: 10px;
+  margin: 0px 20px 0px 20px;
+  border: 0px;
+  float: left;
+}
+
+div#header {
+  margin: 0px 0px 0px 0px;
+  #padding: 1em;
+  border-bottom: 1px dotted black;
+  #height: 85px;
+  #height: auto;
+  padding-bottom: 5px;
+  min-width: 20em;
+}
+
+div.spacer {
+  clear: both;
+}
+
+div#validxhtml {
+  clear: both;
+  margin: 0;
+  padding: 1em;
+  text-align: right;
+  margin: 0;
+  border-top: 1px dotted black;
+  min-width: 20em;
+}
+
+div#imagenav {
+  text-align: right;
+}
+
+div#pagenav {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  width: 600px;
+}
+
+.dayrow {
+  padding: 0;
+  margin: 2px;
+  height: 75px;
+  border: 1px solid black;
+}
+
+.dayrow>.daydate {
+  float: left;
+  padding: 15px 5px 25px 5px;
+  width: 80px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.dayrow .daydescription {
+  padding: 0;
+  margin-left: 100px;
+}
+
+.dayrow .daydescription p{
+  padding: 0;
+}
+
+.dayrow :hover {
+}
+
+.dayrow li a {
+  display: block;
+  width: 100%;
+}
+
+html>body .dayrow li a {
+  width: auto;
+}
+
+.navlink {
+ clear: left;
+}

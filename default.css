@@ -1,0 +1,82 @@
+body {
+	color: #ffffff;
+	background-color: #000000;
+	font-family: Arial, sans-serif;
+}
+.wrap div {
+	float: left;
+	width: 180px;
+	border: solid 1px #666;
+	margin: 10px 10px 0 0;
+	background-color: #111111;
+	border: solid 1px #8e8372;
+}
+.wrap a {
+	
+	text-align: center;
+}
+
+.wrap div>a {
+	display: table-cell;
+	width: 180px;
+	height: 180px;
+	vertical-align: middle;
+}
+
+.wrap img {
+	border: solid 1px ;
+	vertical-align: middle;
+}
+/* IE */
+* html .wrap a {
+	display: block;
+	font-size: 1px; /* migliora Mac */
+}
+* html .wrap span {
+	display: inline-block;
+	vertical-align: middle;
+	height: 180px;
+	
+}
+.wrap span {
+	width: 1px;
+}
+/* box model */
+* html .wrap div {
+	width: 180px;
+}
+
+.wrap div {
+	border-collapse: collapse; /* required for opera7 */
+}
+
+* html .wrap {
+	height: 1px;
+}
+
+.wrap a:hover {
+	background-color: #6666DB;
+}
+
+div.content {
+  padding: 1em;
+}
+
+div.spacer {
+  clear: both;
+}
+
+div#validxhtml {
+  clear: both;
+  margin: 0;
+  padding: 1em;
+  text-align: right;
+}
+
+div#imagenav {
+  text-align: right;
+}
+
+div#pagenav {
+  text-align: right;
+}
